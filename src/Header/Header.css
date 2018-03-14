@@ -1,0 +1,29 @@
+header.App-header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #FFA400;
+    color: #fff;
+}
+
+header.App-header span {
+    padding: 5px;
+}
+
+header.App-header a {
+    color: #eee;
+}
+
+header.App-header a:hover,
+.Services div ul {
+    color: #fff;
+}
+
+img.App-logo {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #ccc;
+    border-radius: 100%;
+    display: flex;
+    margin: auto;
+}

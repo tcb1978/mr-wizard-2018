@@ -1,0 +1,13 @@
+.submit-contact {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+span.input-group-addon {
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-left: 1px solid #ced4da;
+    padding: 0 0;
+    border-radius: 5px 0 0 5px;
+}

@@ -1,0 +1,72 @@
+.Services {
+    display: flex;
+    flex-direction: column;
+}
+
+.Hype h1,
+.Hype h3,
+.Hype h4,
+.Hype h6,
+.Services div ul li {
+    color: darkslategrey;
+}
+
+.Services h2 {
+    color: #FFA500;
+    padding-bottom: 15px;
+}
+
+.Services div {
+    width: 80%;
+    margin: auto;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 30px 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.Services div ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Hype {
+    display: flex;
+    flex-flow: column;
+}
+
+.Hype div {
+    width: 80%;
+    margin: auto;
+}
+
+.Hype div img {
+    width: 17em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: darkslategray;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer span {
+    font-size: 8px;
+    color: #fff;
+}
+
+@media (max-width: 414px) {
+    header.App-header span {
+        font-size: smaller;
+    }
+    .Services div {
+        flex-flow: column;
+    }
+}
